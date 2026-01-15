@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 55px;
+    width: 100%;
+    /* background-color: rgb(173, 5, 5); */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding: 0 30px;
+}
+
+#nav h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+
+#center{
+    width: 100%;
+    /* background-color: burlywood; */
+    padding: 8px 30px;
+}
+
+#center h1{
+    /* font-size: 60px; */
+    font-size: 4.4vw;
+    font-weight: 500;
+    line-height: 4.8vw;
+}
+
+#center-in{
+    width: 100%;
+    /* background-color: violet; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p{
+    font-size: 1.05vw;
+    font-weight: 400;
+    line-height: 1.2vw ;
+}
+
+#right{
+    width: 20%;
+    /* background-color: cadetblue; */
+}
+
+.elem{
+    padding: 9px 0 ;
+    /* background-color: yellow; */
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.elem i{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0;
+}
+
+.elem:hover {
+    background-color: palevioletred;
+    border: 5px solid lightseagreen;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+
+.elem:hover a{
+    text-decoration: underline;
+}
+
+#bottom{
+    height: 30%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    background: url(https://i.pinimg.com/1200x/05/5f/87/055f8780b8222089b5dc7ed151c5beaf.jpg);
+    background-size: cover;
+    background-position: 0 70%;
+}
+
+@media (max-width:400px) {
+    #nav{
+    height: 45px;
+    gap: 15px;
+    padding: 0 12px;
+}
+#nav h4{
+    font-size: 10px;
+    font-weight: 600;
+    /* display: none; */
+}
+
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 9px;
+    padding: 5px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+#center{
+    width: 100%;
+    /* background-color: burlywood; */
+    padding: 10px 15px;
+}
+
+#center h1{
+    /* font-size: 60px; */
+    font-size: 11vw;
+    font-weight: 500;
+    line-height: 12vw;
+}
+
+#center-in{
+    width: 100%;
+    /* background-color: violet; */
+    margin-top: 15px;
+    display: flex;
+    gap: 19px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#center-in p{
+    font-size: 3.4vw;
+    font-weight: 400;
+    line-height: 3.7vw ;
+}
+
+#right{
+    width: 100%;
+    /* background-color: cadetblue; */
+}
+
+.elem{
+    padding: 8px 0 ;
+    /* background-color: yellow; */
+    border-top: 1.5px solid rgb(77, 77, 77);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem a{
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.elem i{
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 1;
+    color: rgb(46, 45, 45);
+}
+
+.elem:hover {
+    background-color: palevioletred;
+    border: 5px solid lightseagreen;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.elem:hover a{
+    text-decoration: underline;
+}
+
+#bottom{
+    height: 24.3%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    background: url(https://i.pinimg.com/1200x/05/5f/87/055f8780b8222089b5dc7ed151c5beaf.jpg);
+    background-size: cover;
+    background-position: 0 70%;
+}
+
+}
